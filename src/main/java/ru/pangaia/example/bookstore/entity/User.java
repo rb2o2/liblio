@@ -19,15 +19,15 @@ public class User implements Serializable
     private long id;
 
 
-    private String name;
+    public String name;
 
-    private String login;
+    public String login;
 
     private String password;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<BookBase> booksOwned = new ArrayList<>();
+    public List<BookBase> booksOwned = new ArrayList<>();
     @OneToMany
-    private List<BookCollection> bookCollections = new ArrayList<>();
+    public List<BookCollection> bookCollections = new ArrayList<>();
 
     public User(String username)
     {

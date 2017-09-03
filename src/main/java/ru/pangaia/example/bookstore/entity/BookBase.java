@@ -14,8 +14,8 @@ public class BookBase implements Serializable
     @Id
     @GeneratedValue
     private long id;
-    private String author;
-    private String title;
+    public String author;
+    public String title;
 
     public BookBase(@NotNull String author, @NotNull String title)
     {

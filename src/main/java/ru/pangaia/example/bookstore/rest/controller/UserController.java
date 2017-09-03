@@ -1,11 +1,10 @@
-package ru.pangaia.example.bookstore.controller;
+package ru.pangaia.example.bookstore.rest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.pangaia.example.bookstore.entity.User;
 import ru.pangaia.example.bookstore.repository.UserRepository;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
@@ -27,7 +26,6 @@ public class UserController
 
     }
     @RequestMapping(value = "/users/create", method = RequestMethod.POST, consumes = "application/json")
-    @Transactional
     User createUser(@RequestBody User user)
     {
         userRepository.saveAndFlush(user);
