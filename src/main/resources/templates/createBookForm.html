@@ -1,0 +1,18 @@
+<form th:fragment="form" enctype="application/json" method="post" action="/books/">
+    <table>
+        <caption>Добавить книгу</caption>
+        <tr>
+            <td>Автор</td>
+            <td>
+                <input name="author"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Заглавие</td>
+            <td>
+                <input name="title"/>
+            </td>
+        </tr>
+        <tr><td><input type="submit" value="создать"/></td></tr>
+    </table>
+</form>

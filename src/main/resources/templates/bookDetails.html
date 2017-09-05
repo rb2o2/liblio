@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index :: head">
+    <meta charset="UTF-8">
+    <title>BIBLIO</title>
+</head>
+<body>
+<header th:replace="index :: header"></header>
+<div class="container">
+    <p th:text="${book.author}"></p>
+    <p th:text="${book.title}"></p>
+
+</div>
+</body>
+</html>

@@ -1,21 +1,22 @@
 package ru.pangaia.example.bookstore.rest.controller;
 
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.WebApplicationContext;
 import ru.pangaia.example.bookstore.entity.BookBase;
+import ru.pangaia.example.bookstore.entity.BookCollection;
 import ru.pangaia.example.bookstore.entity.User;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.UserRepository;
-
-import java.util.List;
+import ru.pangaia.example.bookstore.service.BookService;
 
 @RestController
 @RequestMapping("/api")
 public class BookController
 {
     @Autowired
-    ApplicationContext ctx;
+    BookService bookService;
 
     @Autowired
     BookRepository bookRepository;
@@ -23,24 +24,37 @@ public class BookController
     @Autowired
     UserRepository userRepository;
 
-    @RequestMapping(value = "/books/", method = RequestMethod.GET)
+    @GetMapping(value = "/books/")
     List<BookBase> getAllBooks()
     {
-        return bookRepository.findAll();
+        List<BookBase> resultSet = bookRepository.findAll();
+        return resultSet;
     }
 
-    @RequestMapping(value = "/user/{userId}/books/", method = RequestMethod.GET)
-    List<BookBase> getAllBooksFromUser(@PathVariable Long userId)
-    {
-        User user = userRepository.getOne(userId);
-        return user.getBooksOwned();
-    }
-    @RequestMapping(value = "/book/{bookId}/", method = RequestMethod.GET)
+    @GetMapping(value = "/book/{bookId}/")
     BookBase getBook(@PathVariable Long bookId)
     {
-        return bookRepository.getOne(bookId);
+        BookBase result = bookRepository.getOne(bookId);
+        return result;
     }
-    @RequestMapping(value = "/user/{userId}/books/create", method = RequestMethod.POST)
+
+    @PostMapping(value = "/book/{bookId}/")
+    BookBase updateBook(@PathVariable Long bookId, @RequestBody BookBase bookNew)
+    {
+        BookBase book  = bookRepository.getOne(bookId);
+        book.update(bookNew);
+        bookRepository.saveAndFlush(book);
+        return book;
+    }
+
+    @PostMapping("/books/")
+    BookBase createBook(@RequestBody BookBase book)
+    {
+        bookRepository.saveAndFlush(book);
+        return book;
+    }
+
+    @PostMapping("/user/{userId}/books/")
     BookBase createBookForUser(@PathVariable Long userId, @RequestBody BookBase book)
     {
         bookRepository.saveAndFlush(book);
@@ -48,5 +62,17 @@ public class BookController
         user.addBook(book);
         userRepository.saveAndFlush(user);
         return book;
+    }
+
+    @DeleteMapping("/book/{bookId}/")
+    void deleteBook(@PathVariable Long bookId)
+    {
+        bookService.deleteBookById(bookId);
+    }
+
+    @DeleteMapping("/user/{userId}/books/{bookId}/")
+    void deleteBook(@PathVariable Long userId, @PathVariable Long bookId)
+    {
+        bookService.deleteBookFromUserByIds(userId, bookId);
     }
 }

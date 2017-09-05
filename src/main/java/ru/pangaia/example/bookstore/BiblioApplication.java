@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -26,13 +27,13 @@ public class BiblioApplication extends SpringApplication
         run(BiblioApplication.class, args);
     }
 
-    @Bean
+    @Bean(name = "entityManagerFactory")
     EntityManagerFactory emf()
     {
         return Persistence.createEntityManagerFactory(DB_ADDR);
     }
 
-    @Bean
+    @Bean(name = "transactionManager")
     public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
         return new JpaTransactionManager(entityManagerFactory);
     }

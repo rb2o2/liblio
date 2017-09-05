@@ -23,7 +23,7 @@ public class MainController
     Logger logger;
     private static final String STORE_ADDR_DIR = "/home/oneuro/.bookshelfData/data.odb";
 
-    @RequestMapping("/cleanData")
+    @RequestMapping("/api/cleanData")
     public String cleanData()
     {
         userRepository.deleteAll();

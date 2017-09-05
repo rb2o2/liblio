@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index :: head">
+    <meta charset="UTF-8">
+    <title>BIBLIO</title>
+</head>
+<body>
+<header th:replace="index :: header"></header>
+<div class="container">
+    <div>
+        <table class="table table-bordered">
+            <tr><th>Имя</th><th>login</th><th>email</th></tr>
+            <tr th:each = "u: ${users}">
+                <td><span th:text="${u.name}">name</span></td>
+                <td><a th:href="@{/user/{id}(id=${u.id})}"><span th:text="${u.login}">login</span></a></td>
+                <td><span th:text="${u.email}">email</span></td>
+                <td><form action="/users/delete" method="post"><input style="display: none;" name="id" th:value="${u.id}"><input type="submit" value="удалить"></form></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <form th:replace="createUserForm :: form"></form>
+    </div>
+</div>
+</body>
+</html>

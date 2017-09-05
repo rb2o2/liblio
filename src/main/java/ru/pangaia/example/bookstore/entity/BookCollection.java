@@ -6,7 +6,9 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class BookCollection implements Serializable
@@ -14,10 +16,10 @@ public class BookCollection implements Serializable
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue
-    private long id;
-    private String name;
+    public long id;
+    public String name;
     @OneToMany
-    private List<BookBase> books;
+    public Collection<BookBase> books = new HashSet<>();
 
     public void addBook(BookBase book)
     {
@@ -34,6 +36,6 @@ public class BookCollection implements Serializable
 
     public BookCollection(Collection<BookBase> books)
     {
-        books.addAll(books);
+        this.books.addAll(books);
     }
 }
