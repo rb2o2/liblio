@@ -48,10 +48,10 @@ public class BookController
     }
 
     @PostMapping("/books/")
-    BookBase createBook(@RequestBody BookBase book)
+    List<BookBase> createBooks(@RequestBody List<BookBase> books)
     {
-        bookRepository.saveAndFlush(book);
-        return book;
+        bookRepository.saveAll(books);
+        return books;
     }
 
     @PostMapping("/user/{userId}/books/")

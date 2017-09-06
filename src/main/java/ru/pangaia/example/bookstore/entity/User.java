@@ -54,7 +54,7 @@ public class User extends BaseEntity implements Serializable
     public void setName(String name)
     {
         this.name = name;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public String getLogin()
@@ -65,7 +65,7 @@ public class User extends BaseEntity implements Serializable
     public void setLogin(String login)
     {
         this.login = login;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public String getEmail()
@@ -76,7 +76,7 @@ public class User extends BaseEntity implements Serializable
     public void setEmail(String email)
     {
         this.email = email;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public String getPassword()
@@ -87,7 +87,7 @@ public class User extends BaseEntity implements Serializable
     public void setPassword(String password)
     {
         this.password = password;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     private void mergeBooks(Collection<BookBase> list)
@@ -99,7 +99,7 @@ public class User extends BaseEntity implements Serializable
         if (list != null)
         {
             booksOwned.addAll(list);
-            setDateModified(Timestamp.from(Instant.now()));
+
         }
 
     }
@@ -113,7 +113,7 @@ public class User extends BaseEntity implements Serializable
         if (null != list)
         {
             bookCollections.addAll(list);
-            setDateModified(Timestamp.from(Instant.now()));
+
         }
     }
 
@@ -125,7 +125,7 @@ public class User extends BaseEntity implements Serializable
         password = other.password == null? password : other.password;
         mergeBooks(other.booksOwned);
         mergeCollections(other.bookCollections);
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
 //    public Set<BookBase> getBooksOwned()
@@ -147,7 +147,7 @@ public class User extends BaseEntity implements Serializable
     public void setBooksOwned(Set<BookBase> booksOwned)
     {
         this.booksOwned = booksOwned;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
 //    public List<BookCollection> getBookCollections()
@@ -158,7 +158,7 @@ public class User extends BaseEntity implements Serializable
     public void setBookCollections(List<BookCollection> bookCollections)
     {
         this.bookCollections = bookCollections;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public BookCollection getBookCollectionById(Long collId)
@@ -169,25 +169,25 @@ public class User extends BaseEntity implements Serializable
     public void addBook(BookBase book)
     {
         booksOwned.add(book);
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public void addBooks(Collection<BookBase> books)
     {
         booksOwned.addAll(books);
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public void addCollection(BookCollection bookCollection)
     {
         bookCollections.add(bookCollection);
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public void addCollections(Collection<BookCollection> collections)
     {
         bookCollections.addAll(collections);
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     @Override

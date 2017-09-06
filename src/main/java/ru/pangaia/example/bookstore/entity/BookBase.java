@@ -30,7 +30,7 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
     {
         author = other.author == null? author : other.author;
         title = other.title == null? title: other.title;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public String getAuthor()
@@ -41,7 +41,7 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
     public void setAuthor(String author)
     {
         this.author = author;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
     public String getTitle()
@@ -52,7 +52,7 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
     public void setTitle(String title)
     {
         this.title = title;
-        setDateModified(Timestamp.from(Instant.now()));
+
     }
 
 //    public Set<Category> getCategories()
@@ -63,19 +63,19 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
 //    public void setCategories(Set<Category> categories)
 //    {
 //        this.categories = categories;
-//        setDateModified(Timestamp.from(Instant.now()));
+//
 //    }
 
 //    public void addCategory(Category category)
 //    {
 //        this.categories.add(category);
-//        setDateModified(Timestamp.from(Instant.now()));
+//
 //    }
 //
 //    public void addAllCategories(Collection<Category> categories)
 //    {
 //        this.categories.addAll(categories);
-//        setDateModified(Timestamp.from(Instant.now()));
+//
 //    }
 
     @Override

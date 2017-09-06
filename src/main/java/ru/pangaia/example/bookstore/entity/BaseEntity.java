@@ -1,22 +1,26 @@
 package ru.pangaia.example.bookstore.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
 import java.time.Instant;
 
 @Entity
+@JsonIgnoreProperties({"userCreated", "userModified"})
 public abstract class BaseEntity
 {
     @Id
     @GeneratedValue
-    @JsonProperty
     private long id;
 
-    @JsonProperty
-    private final Timestamp dateCreated;
+    @CreatedDate
+    private Timestamp dateCreated;
 
+    @LastModifiedDate
     private Timestamp dateModified;
 
     @ManyToOne
@@ -24,11 +28,6 @@ public abstract class BaseEntity
 
     @ManyToOne
     private User userModified;
-
-    public BaseEntity()
-    {
-        dateCreated = Timestamp.from(Instant.now());
-    }
 
     public User getUserCreated()
     {
@@ -44,17 +43,6 @@ public abstract class BaseEntity
     {
         return id;
     }
-
-    public Timestamp getDateModified()
-    {
-        return dateModified;
-    }
-
-    protected void setDateModified(Timestamp dateModified)
-    {
-        this.dateModified = dateModified;
-    }
-
 
     public Timestamp getDateCreated()
     {
