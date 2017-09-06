@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index :: head">
+    <meta charset="UTF-8">
+    <title>BIBLIO</title>
+</head>
+<body>
+<header th:replace="index :: header"></header>
+<div class="container">
+    <span th:text="${user.name}"></span>
+    <span th:text="${collection.name}"></span>
+    <ul>
+        <li th:each="book: ${collection.books}">
+            <p>
+                <span th:text="${book.author}"></span>
+                <span th:text="${book.title}"></span>
+            </p>
+        </li>
+    </ul>
+    <a th:href="@{/user/{uid}/collection/{cid}/add(uid=${user.getId()},cid=${collection.getId()})}"><button>Добавить</button></a>
+
+</div>
+</body>
+</html>

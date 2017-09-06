@@ -1,0 +1,8 @@
+<form th:fragment="form" method="post" th:action="@{/user/{uid}/collections/(uid=${user.getId()})}">
+        <h3>Добавить коллекцию</h3>
+        <div class="form-group">
+            <label>Название</label>
+            <input name="collName" class="form-control"/>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Добавить"/>
+</form>

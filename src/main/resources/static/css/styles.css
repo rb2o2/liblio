@@ -1,0 +1,7 @@
+.navbar-default {
+    background-color: lightgrey;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #dddddd;
+}

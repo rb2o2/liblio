@@ -16,10 +16,12 @@
             <a class="navbar-brand" th:href="@{/}">BIBLIO</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#" th:href="@{/index}"><span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-lock"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
+            <li th:class="*{location == 'index'}? 'active' : ''"><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li th:class="*{location == 'users'}? 'active' : ''"><a href="/users/"><span class="glyphicon glyphicon-user"></span> <span>Пользователи</span></a></li>
+            <li th:class="*{location == 'books'}? 'active' : ''"><a href="/books/"><span class="glyphicon glyphicon-book"></span> <span>Книги</span></a></li>
+            <li th:class="*{location == 'categories'}? 'active' : ''"><a href="/categories/"><span class="glyphicon glyphicon-th-list"></span> <span>Категории</span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-cog"></span> <span>Настройки</span></a></li>
+            <li><a href="/"><span class="glyphicon glyphicon-question-sign"></span> <span>О программе</span></a></li>
         </ul>
     </div>
 </nav>

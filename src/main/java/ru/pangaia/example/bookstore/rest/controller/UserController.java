@@ -67,7 +67,7 @@ public class UserController
     {
         User user = userRepository.getOne(userId);
         List<BookBase> books = bookRepository.findAllById(bookIds);
-        BookCollection coll = user.bookCollections.stream().filter((c) -> new Long(c.id).equals(collId)).findFirst().get();
+        BookCollection coll = user.getBookCollections().stream().filter((c) -> new Long(c.getId()).equals(collId)).findFirst().get();
         books.forEach(coll::addBook);
         userRepository.saveAndFlush(user);
         return user;
@@ -77,7 +77,7 @@ public class UserController
     {
         coll.clear();
         User user = userRepository.getOne(userId);
-        user.bookCollections.add(coll);
+        user.addCollection(coll);
         bookCollectionRepository.save(coll);
         return coll;
     }
@@ -93,9 +93,9 @@ public class UserController
     User deleteCollectionForUser(@PathVariable Long userId, @PathVariable Long collId)
     {
         User user = userRepository.getOne(userId);
-        BookCollection collection = bookCollectionRepository.getOne(collId);
-        user.bookCollections.remove(collection);
-        userRepository.save(user);
+        BookCollection collection = user.getBookCollections().stream().filter((c) -> collId.equals(c.getId())).findFirst().get();
+        user.getBookCollections().remove(collection);
+        userRepository.saveAndFlush(user);
         bookCollectionRepository.delete(collection);
         return user;
     }

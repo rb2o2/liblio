@@ -28,6 +28,7 @@ public class BooksController
     {
         List<BookBase> books = bookRepository.findAll();
         model.addAttribute("books", books);
+        model.addAttribute("location", "books");
         return "books";
     }
     @GetMapping("/book/{bookId}")
@@ -35,6 +36,7 @@ public class BooksController
     {
         BookBase book = bookRepository.getOne(bookId);
         model.addAttribute("book", book);
+        model.addAttribute("location", "books");
         return "bookDetails";
     }
     @PostMapping("/books/")

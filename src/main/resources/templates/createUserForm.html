@@ -1,30 +1,20 @@
-<form th:fragment="form" enctype="application/json" method="post" action="/users/">
-    <table>
-        <caption>Создать пользователя</caption>
-        <tr>
-            <td>Имя</td>
-            <td>
-                <input name="name"/>
-            </td>
-        </tr>
-        <tr>
-            <td>login</td>
-            <td>
-                <input name="login"/>
-            </td>
-        </tr>
-        <tr>
-            <td>email</td>
-            <td>
-                <input type="email" name="email"/>
-            </td>
-        </tr>
-        <tr>
-            <td>пароль</td>
-            <td>
-                <input type="password" name="password"/>
-            </td>
-        </tr>
-        <tr><td><input type="submit" value="создать"/></td></tr>
-    </table>
+<form th:fragment="form" method="post" action="/users/">
+        <h3>Создать пользователя</h3>
+        <div class="form-group">
+            <label>Имя</label>
+            <input name="name" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label>login</label>
+            <input name="login" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label>email</label>
+            <input type="email" name="email" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label>пароль</label>
+            <input type="password" name="password" class="form-control"/>
+        </div>
+        <input class="btn btn-primary" type="submit" value="создать"/>
 </form>

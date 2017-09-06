@@ -7,17 +7,18 @@
 <body>
 <header th:replace="index :: header"></header>
 <div class="container">
-    <div><table class="table table-bordered">
+    <div><p>Всего книг: <span th:text="${books.size()}"></span></p></div>
+    <div class="container">
+        <form th:replace="createBookForm :: form"></form>
+    </div>
+    <div><table class="table table-hover table-condensed">
         <tr><th>Автор</th><th>Заглавие</th></tr>
         <tr th:each = "bk: ${books}">
             <td><span th:text="${bk.author}">author</span></td>
             <td><a th:href="@{/book/{id}(id=${bk.id})}"><span th:text="${bk.title}">title</span></a></td>
-            <td><form action="/books/delete" method="post"><input style="display: none;" name="id" th:value="${bk.id}"><input type="submit" value="удалить"></form></td>
+            <td><form action="/books/delete" method="post"><input style="display: none;" name="id" th:value="${bk.getId()}"><input class="btn btn-warning" type="submit" value="удалить"></form></td>
         </tr>
     </table>
-    </div>
-    <div>
-        <form th:replace="createBookForm :: form"></form>
     </div>
 </div>
 </body>

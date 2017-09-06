@@ -13,17 +13,20 @@
     <ul>
         <li th:each="b: ${user.booksOwned}"><span th:text="${b.author}">author</span>: <span th:text="${b.title}">title</span></li>
     </ul>
-    <p>Коллекции:</p><br/>
-    <ul>
-        <li th:each="c: ${user.bookCollections}">
-            <span th:text="${c.name}"></span>:
-            <ul>
-                <li th:each="b: ${c.books}">
-                    <span th:text="${b.author}">author</span>: <span th:text="${b.title}"></span>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <input class="btn btn-primary" type="submit" th:action="@{/user/{uid}/books/add(uid=${user.getId()})}">Добавить</input>
+    <div><p>Коллекции:</p><br/>
+        <ul>
+            <li th:each="c: ${user.bookCollections}">
+                <a th:href="@{/user/{id}/collection/{collId}/(id=${user.getId()},collId=${c.getId()})}"><span th:text="${c.name}"></span></a>:
+                <ul>
+                    <li th:each="b: ${c.books}">
+                        <span th:text="${b.author}">author</span>: <span th:text="${b.title}"></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <form th:replace="collectionCreateForm :: form"></form>
+    </div>
 </div>
 </body>
 </html>

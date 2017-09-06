@@ -1,9 +1,6 @@
 package ru.pangaia.example.bookstore.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashSet;
@@ -11,19 +8,20 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
-public class BookCollection implements Serializable
+public class BookCollection extends BaseEntity implements Serializable, Comparable<BookCollection>
 {
     private static final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue
-    public long id;
     public String name;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
     public Collection<BookBase> books = new HashSet<>();
 
     public void addBook(BookBase book)
     {
         books.add(book);
+    }
+    public void addAll(Collection<BookBase> books)
+    {
+        this.books.addAll(books);
     }
     public void removeBook(BookBase book)
     {
@@ -34,8 +32,18 @@ public class BookCollection implements Serializable
         books.clear();
     }
 
+    public BookCollection(String name)
+    {
+        this.name = name;
+    }
     public BookCollection(Collection<BookBase> books)
     {
         this.books.addAll(books);
+    }
+
+    @Override
+    public int compareTo(BookCollection bookCollection)
+    {
+        return name.compareTo(bookCollection.name);
     }
 }
