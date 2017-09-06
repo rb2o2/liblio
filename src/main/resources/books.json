@@ -1,0 +1,2466 @@
+[
+  {
+    "id": 0,
+    "dateCreated": 1504706136855,
+    "dateModified": null,
+    "author": "Курт Воннегут",
+    "title": "Хроники Тральфамадора"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "В.В.Похлебкин",
+    "title": "Моя Кухня"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "В.В.Похлебкин",
+    "title": "Чай"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Японская Фантастическая Проза"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "Роберт А. Уилсон, Роберт Шей",
+    "title": "Глаз в Пирамиде"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "Роберт А. Уилсон, Роберт Шей",
+    "title": "Левиафан"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "Роберт А. Уилсон, Роберт Шей",
+    "title": "Золотое Яблоко"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136858,
+    "dateModified": null,
+    "author": "Роберт Асприн",
+    "title": "Шуттовские Деньги"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Фридрих Ницше",
+    "title": "Так Говорил Заратустра"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Дуглас Коупленд",
+    "title": "Рабы \"Microsoft\""
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Соммерсет Моэм",
+    "title": "Бремя страстей человеческих"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "О.П.Кузнецов",
+    "title": "Дискретная математика для инженера"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Problems of Geocosmos-2008"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Science and Progress 2010"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "BEAT. Антология поэзии битников"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Монстры. Привидения. НЛО."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "А.С.Пушкин",
+    "title": "Маленькие трагедии"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Что есть что. Самураи."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Что есть что. Ведьмы."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Oxford. Природа"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Дугал Диксон",
+    "title": "Динозавры. Иллюстрированная энциклопедия"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Н.Н.Головин",
+    "title": "Моя первая русская история"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "А.Торопцев",
+    "title": "Книга Битв. XXX - IV века до нашей эры."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "С.Перевезенцев",
+    "title": "Россия. Великая судьба"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "А.Э.Брэм",
+    "title": "Жизнь животных. т.1"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "А.Э.Брэм",
+    "title": "Жизнь животных. т.2"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "А.Э.Брэм",
+    "title": "Жизнь животных. т.3"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Ж.А.Фабр",
+    "title": "Нравы насекомых. т.1"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Ж.А.Фабр",
+    "title": "Нравы насекомых. т.2"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Д.Г.Вуд",
+    "title": "Гнезда, норы и логовища"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Э.Н.Голованова, Ю.Б.Пукинский",
+    "title": "Птичьи заботы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "Баррингтон Барбер",
+    "title": "Как нарисовать все что угодно"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136859,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Дневник Авантюриста"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Pathfinder. Основная книга правил"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Марк Лутц",
+    "title": "Python. Карманный справочник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Масляная живопись. Шаг за шагом"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "М.Вернер",
+    "title": "Основы кодированимя"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "А.В.Леоненков",
+    "title": "UML 2. Самоучитель"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Дональд Кнут",
+    "title": "Искусство программирования. т.1. Основные алгоритмы."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Бьярне Страуструп",
+    "title": "Программирование. Принципы и практика с использованием C++."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Р.Седжвик, К.Уэйн",
+    "title": "Алгоритмы на Java"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Г.Шилдт",
+    "title": "C# 4.0. Полное руководство"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Татьяна Задорожная",
+    "title": "Жизнь бьет ключом"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "К.С.Носов",
+    "title": "Вооружение самураев"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "С.-С.Орбелиани",
+    "title": "Мудрость вымысла"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Н.Носов",
+    "title": "Незнайка на Луне"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Учение Дарвина и марксизм-ленинизм"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Русско-английский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Французско-русский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Французско-русский русско-французский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Русско-немецкий разговорник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "И.А.Бродский",
+    "title": "Конец прекрасной эпохи"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Ж.Б.Мольер",
+    "title": "Дон Жуан и другие пьесы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Илунь Ян",
+    "title": "Фундаментальные принципы Го"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Мыслить и побеждать. Игра Го для начинающих\\"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136860,
+    "dateModified": null,
+    "author": "Джеймс Джойс",
+    "title": "Улисс"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Михаил Задорнов",
+    "title": "Этот безумный, безумный, безумный мир..."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Протокол и этикет для деловых людей"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "А.Н.Стругацкий, Б.Н.Стругацкий",
+    "title": "Трудно быть богом"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "И.А.Бродский",
+    "title": "Пейзаж с наводнением"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Альберт Голдман",
+    "title": "Джон Леннон"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Дж.Р.Р.Толкин",
+    "title": "Властелин колец"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Р.А.Евсегнеев",
+    "title": "Психиатрия для всех"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Роберт А. Уилсон",
+    "title": "Квантовая психология"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Дж.Р.Р.Толкин",
+    "title": "Сильмариллион"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Дж.Р.Р.Толкин. Энциклопедия."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Н.А.Кун",
+    "title": "Легенды и мифы Древней Греции"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Д.И.Киплик",
+    "title": "Техника живописи"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Сатира и юмор Херлуфа Бидструпа"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Н.Н.Ростовцев",
+    "title": "Академический рисунок"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "Б.И.Зотов",
+    "title": "Человек среди автоматов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "И.О.Одинцов",
+    "title": "Профессиональное программирование. Системный подход."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "М.И.Полубенцева",
+    "title": "C/C++. Процедурное программирование."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "А.М.Горелик",
+    "title": "Программирование на современном Фортране"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "С.И.Ожегов",
+    "title": "Словарь русского языка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Grosswoerterbuch. Deutsch als Fremdsprache"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136861,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Краткий толковый словарь бурятского языка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "И.А.Потапова",
+    "title": "Краткий словарь синонимов английского языка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Англо-русский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "М.Фот",
+    "title": "Краткая немецкая грамматика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Орфографический словарь русского языка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "Н.Н.Кохтев",
+    "title": "Риторика. 8-9 кл."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "A.S.Hornby",
+    "title": "Oxford Student's Dictionary of Current English"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "М.Я.Георгиу",
+    "title": "Учебник французского языка. Часть первая."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "М.Ю.Симаков",
+    "title": "Математизация мира"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Англо-русский фразеологический словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Школьный словарь иностранных слов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "М.И.Дубровин",
+    "title": "Situational Grammar. II"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Словарь иностранных слов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Англо-русский физический словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Краткий словарь иностранных слов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Русско-немецкий словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Немецко-русский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Карманный русско-английский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Карманный русско-немецкий словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "Agatha Christie",
+    "title": "Selected Stories"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Краткий русско-французский и французско-русский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Китайская тушь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "Д.Э.Розенталь, М.А.Теленкова",
+    "title": "Словарь трудностей русского языка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Популярный русско-немецкий разговорник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "Г.А.Сорокин, Д.Хэджен, А.О.Кувалдин",
+    "title": "Русско-английский разговорник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136862,
+    "dateModified": null,
+    "author": "Т.И.Арбекова",
+    "title": "Пособие по развитию навыков устной речи на английском языке"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Краткий очерк истории философии"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Е.Медведев, В.Макаров",
+    "title": "Эра Водолея"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Б.Бонд",
+    "title": "Справочник яхтсмена"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Физический практикум. Оптика. Методические указания по выполнению лабораторных работ."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "БШФФ-2009. Гелио- и геофизические исследования."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "М.И.Пудовкин",
+    "title": "Основы физики Солнца"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "RELICS. Раннее и неизданное"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Все рассказы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "SNUFF"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Жизнь насекомых"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Священная книга оборотня"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Чапаев и Пустота"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Шлем ужаса"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Empire V"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "М.Ф.Иваницкий",
+    "title": "Очерк пластической анатомии человека"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Пол Уэйд",
+    "title": "Тренировочная зона. Секретная система физических тренировок."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Стивен Лаберж",
+    "title": "Осознанное сновидение"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Пеле",
+    "title": "Моя жизнь и прекрасная игра"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Агни-йога. Об истинном пути к здоровью"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136863,
+    "dateModified": null,
+    "author": "Роберт Асприн",
+    "title": "Потрошители времени"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Гордон Диксон",
+    "title": "Рыцарь-дракон"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Мэри Стюарт",
+    "title": "Последнее волшебство"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Карлос Кастанеда",
+    "title": "Путешествие в Икстлан. Сказки о Силе"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Карлос Кастанеда",
+    "title": "Второе кольцо силы. Дар орла."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Карлос Кастанеда",
+    "title": "Огонь изнутри. Сила безмолвия."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Карлос Кастанеда",
+    "title": "Искусство сновидения. Активная сторона бесконечности. Колесо времени."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Уксус и крокодилы. 38 лучших рассказов 2006 года."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Д.С.Верищагин",
+    "title": "Освобождение. Система навыков Дальнейшего ЭнергоИнформационного Развития."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Эрик Берн",
+    "title": "Игры, в которые играют люди. Люди, которые играют в игры."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Роберт Асприн",
+    "title": "Разведчики времени. Мошенники времени."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Макс Фрай",
+    "title": "Жертвы обстоятельств"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Макс Фрай",
+    "title": "Дебют в Ехо"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Станислав Ежи Лец",
+    "title": "Непричесанные мысли"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Новый Завет"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Чак Паланик",
+    "title": "Бойцовский клуб"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Макс Фрай",
+    "title": "Путешествие в Кеттари"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Л.Б.Окунь",
+    "title": "Физика элементарных частиц"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Я.Б.Зельдович, А.А.Рузмайкин",
+    "title": "Проблемы динамо в астрофизике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "А.В.Дивин",
+    "title": "Численное моделирование процесса магнитного пересоединения в кинетическом приближении"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Б.П.Филиппов",
+    "title": "Эруптивные процессы на Солнце"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Л.А.Божко",
+    "title": "Бисер"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136864,
+    "dateModified": null,
+    "author": "Я.Г.Дорфман",
+    "title": "Всемирная история физики с древнейших времен до конца XVIII века"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Помехоустойчивые коды"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Физика: Справочник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "П.С.Александров",
+    "title": "Введение в теорию групп"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "А.Г.Куликовский, Г.А.Любимов",
+    "title": "Магнитная гидродинамика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Э.Вихман",
+    "title": "Берклеевский курс физики. т.4. Квантовая физика. "
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "А.И.Акишин, Л.С.Новиков",
+    "title": "Электризация космических аппаратов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Н.Н.Воробьев",
+    "title": "Признаки делимости"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "И.М.Виноградов",
+    "title": "Основы теории чисел"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Дж.Синг",
+    "title": "Беседы о теории относительности"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Б.Г.Кузнецов",
+    "title": "Беседы о теории относительности"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Г.П.Хомченко, И.Г.Хомченко",
+    "title": "Сборник задач по химии для поступающих в ВУЗы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Н.В.Дорофеев, А.А.Сапожников, Е.С.Шубин",
+    "title": "Решение экзаменационных задач по математике за 11 класс"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "С.С.Крылов, Н.Ю.Бобров",
+    "title": "Фракталы в геофизике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "И.В.Абаренков, С.Н.Загуляев",
+    "title": "Простейшие модели в квантовой механике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "А.Пуанкаре",
+    "title": "Фигуры равновесия жидкой массы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "С.С.Крылов",
+    "title": "Геоэлектрика: поля искусственных источников"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Л.Н.Пятницкий",
+    "title": "Природа турбулентности и обратная задача"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Я.Б.Зельдович, А.А.Рузмайкин, Д.Д.Соколов",
+    "title": "Магнитные поля в астрофизике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Е.И.Бутиков",
+    "title": "Оптика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "А.С.Енохович",
+    "title": "Справочник по физике и технике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "А.С.Енохович",
+    "title": "Справочник по физике и технике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Б.Ю.Коган",
+    "title": "Сто задач по механике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "Т.Б.Яновская",
+    "title": "Основы сейсмологии"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136865,
+    "dateModified": null,
+    "author": "В.П.Минорский",
+    "title": "Сборник задач по высшей математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "А.А.Свешников",
+    "title": "Основы теории ошибок"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "А.В.Волошинов",
+    "title": "Пифагор"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "А.В.Погорелов",
+    "title": "Элементарная геометрия"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Н.Е.Савченко",
+    "title": "Ошибки на вступительных экзаменах по физике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Н.И.Гольдфарб",
+    "title": "Сборник вопросов и задач по физике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Л.Д.Ландау, А.И.Китайгородский",
+    "title": "Физика для всех"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Дж.Тейлор",
+    "title": "Введение в теорию ошибок"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Ёитиро Намбу",
+    "title": "Кварки"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. тт. 1-2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. тт. 3-4."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. т. 5."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. т. 6."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. т. 7."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Р.Фейнман, Р.Лейтон, М.Сэндс",
+    "title": "Фейнмановские лекции по физике. тт. 8-9."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Ю.Г.Мизун",
+    "title": "Космос и здоровье"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Слово о полку игроеве"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Чарльз Диккенс",
+    "title": "Посмертные записки пиквикского клуба"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Бурятский героический эпос"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Эвенкийские героические сказания"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "С.В.Лукьяненко",
+    "title": "Ночной дозор"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "А.Ф.Джонс",
+    "title": "Мертвая петля"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Валерий Момот",
+    "title": "Традиционное оружие ниндзя. т. 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136866,
+    "dateModified": null,
+    "author": "Валерий Момот",
+    "title": "Традиционное оружие ниндзя. т. 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Б.Б.Гребенщиков",
+    "title": "Книга песен Б Г"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Е.Гришковец",
+    "title": "Сатисфакция"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Виктор Востоков",
+    "title": "Тайны тибетской медицины и восточных целителей"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Стрелковое оружие"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Франческа Кьяппони",
+    "title": "Большая книга йоги"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Роджер Желязны",
+    "title": "Князь света"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Г.Ф.Лавкрафт",
+    "title": "Морок над Инсмутом"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Олдос Хаксли",
+    "title": "Двери восприятия"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Ф.М.Достоевский",
+    "title": "Униженные и оскорбленные"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Сергей Довлатов",
+    "title": "Наши"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Г.В.Баженов",
+    "title": "БИНГО, или чему быть - того не миновать"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Джереми Прайс",
+    "title": "Невеста Чернобородого"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Ник Перумов",
+    "title": "Черное копье"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Саймон Грин",
+    "title": "Победитель получает все"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Ноосфера: духовный мир человека"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Томас Дюнкенбергер",
+    "title": "Справочник по тибетской медицине"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Джозеф Голдстейн",
+    "title": "Опыт прозрения"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Нил Стивенсон",
+    "title": "Вирус \"REAMDE\""
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Зигмунд Фрейд",
+    "title": "Толкование сновидений"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "В.О.Пелевин",
+    "title": "Все повести и эссе"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Р.Пишель",
+    "title": "Будда. Его жизнь и учение."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Олдос Хаксли",
+    "title": "О дивный новый мир"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Хулио Кортасар",
+    "title": "Игра в классики"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Захар Прилепин",
+    "title": "Санькя"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136867,
+    "dateModified": null,
+    "author": "Анджей Сапковский",
+    "title": "Крещение огнем. Башня Ласточки."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Мортен Струнч Нильсен",
+    "title": "Оптимизация и настройка Windows 2000 Professional"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Брюс Эккель",
+    "title": "Философия Java"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Русско-английский словарь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Словарь ударений"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Физика на вступительных испытаниях СПбГТУ"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Таблицы перевода единиц измерений"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "В.В.Акентьев",
+    "title": "Со второго взгляда"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Б.А.Воронцов-Вельяминов",
+    "title": "Астрономия. 11 кл."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Р.С.Гутер, А.Р.Янпольский",
+    "title": "Дифференциальные уравнения"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "В.А.Фетисов",
+    "title": "Оценка точности измерений в курсе физики средней школы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Б.А.Кордемский",
+    "title": "Математика изучает случайности"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Современная школьная энциклопедия. Традиции и обычаи народов мира."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Современная школьная энциклопедия. История философии."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Современная школьная энциклопедия. Мировая литература от Античности до Ренессанса."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Современная школьная энциклопедия. Основы психологии."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "И.П.Степаненко",
+    "title": "Основы теории транзисторов и транзисторных схем"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Г.Корн, Т.Корн",
+    "title": "Справочник по математике для научных работников и инженеров"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Сборник конкурсных задач по математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "Р.П.Федоренко",
+    "title": "Введение в вычислительную физику"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "А.Г.Свешников, А.Н.Тихонов",
+    "title": "Теория функций комплексной переменной"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136868,
+    "dateModified": null,
+    "author": "П.И.Романовский",
+    "title": "Общий курс математического анализа"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "С.А.Немнюгин",
+    "title": "Turbo Pascal. Практикум."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "Г.И.Светозарова, А.А.Мельников, А.В.Козловский",
+    "title": "Практикум по программированию на языке Бейсик"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Справочная книга радиолюбителя-конструктора. книга 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "В.Ф.Греков, С.Е.Крючков, Л.А.Чешко",
+    "title": "Пособие для занятий по русскому языку в старших классах"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "А.М.Епанешников, В.А.Епанешников",
+    "title": "Программирование в среде Turbo Pascal 7.0"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "В.Э.Фигурнов",
+    "title": "IBM PC для пользователя"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Турбо Паскаль 7.0"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "Е.Айсберг",
+    "title": "Радио?.. это очень просто!"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "Е.Айсберг",
+    "title": "Транзистор?.. это очень просто!"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "А.Н.Тихонов, А.А.Самарский",
+    "title": "Уравнения математической физики"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "С.Чандрасекхар",
+    "title": "Эллипсоидальные фигуры равновесия"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Общетехнический справочник"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "П.П.Ревякин",
+    "title": "Техника акварельной живописи"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "Н.Г.Ли",
+    "title": "Основы учебного академического рисунка"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедия для детей. Всемирная история."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедия для детей. Биология."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136869,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедия для детей. География."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедия для детей. История России. От древних славян до Петра I."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедия для детей. Физика."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного зрителя"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного музыканта"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного земледельца"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного математика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного географа-краеведа"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного биолога"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Энциклопедический словарь юного астронома"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "А.Пуанкаре",
+    "title": "Гипотеза и наука"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "Р.Ю.Волковыский",
+    "title": "Определение физических понятий и величин"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "А.Пуанкаре",
+    "title": "Математическое творчество"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Что такое. Кто такой. т. 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Что такое. Кто такой. т. 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Что такое. Кто такой. т. 3."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "Пол Стерри",
+    "title": "Пауки"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Государственная Третьяковская Галерея"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "Ене Барчаи",
+    "title": "Анатомия для художников"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Hollandische Mallerei in den Museen der Sowjetunion"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "Michael W. Alpatow",
+    "title": "Die Dresdner Gallerie"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136870,
+    "dateModified": null,
+    "author": "Ошо",
+    "title": "Осознанность"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Ирвин Шэтток, Дэниел Голмен",
+    "title": "Сатипаттхана. Опыт Внимательности. Многообразие медитативного опыта."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Новый Завет"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Бертран Рассел",
+    "title": "История западной философии"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Жан Поль Сартр",
+    "title": "Что такое литература? Слова."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Артур Шопенгауэр",
+    "title": "Афоризмы житейской мудрости"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Жиль Делез",
+    "title": "Логика смысла"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "В.П.Бранский",
+    "title": "Философия физики XX в."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Словарь сути слов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Герман Гессе",
+    "title": "Игра в бисер"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Дао-Дэ Цзин"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Хун-Жэнь",
+    "title": "Трактат об основах совершенствования сознания"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "А.Л.Алюшин, Е.Н.Князева",
+    "title": "Темпомиры. Скорость восприятия и шкалы времени."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "А.Л.Алюшин, Е.Н.Князева",
+    "title": "Темпомиры. Скорость восприятия и шкалы времени."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "А.Ч. Бхактиведанта Свами Прабхупада",
+    "title": "Путешествие вглубь себя"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Джон Голсуорси",
+    "title": "Конец главы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Эмиль Золя",
+    "title": "Страница любви. Доктор Паскаль."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Ю.П.Коськин",
+    "title": "Введение в электромеханотронику"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "А.Г.Куликовский, Г.А.Любимов",
+    "title": "Магнитная гидродинамика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "У.Г.Пирумов, Г.С.Росляков",
+    "title": "Численные методы газовой динамики"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Математическое моделирование магнитосферных процессов"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "А.А.Папернов",
+    "title": "Логические основы ЦВТ"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Е.Н.Князева, С.П.Курдюмов",
+    "title": "Основания синергетики. Человек, конструирующий себя и свое будущее."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "Б.С.Горобец",
+    "title": "Советские физики шутят... Хотя бывало не до шуток"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "И.Ф.Шишкин",
+    "title": "Теоретическая метрология. Часть 1. Общая теория измерений."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "И.Ф.Шишкин",
+    "title": "Теоретическая метрология. Часть 2. Обеспечение единства измерений."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "В.С.Григорьев, Б.С.Григорьев",
+    "title": "Электронные и ионные приборы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136871,
+    "dateModified": null,
+    "author": "В.П.Невежин",
+    "title": "Теория игр. Примеры и задачи."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Дж.Мартин",
+    "title": "Организация баз данных в вычислительных системах"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Ю.Н.Арсеньев, В.М.Журавлев",
+    "title": "Проектирование систем логического управления на микропроцессорных средствах"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Лион Фейхтвангер",
+    "title": "Успех"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Проспер Мериме",
+    "title": "Избранные драматические произведения"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Теодор Драйзер",
+    "title": "Стоик"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Дж. Фенимор Купер",
+    "title": "Красный корсар"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Фернандо де Рохас",
+    "title": "Селестина"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "А.И.Герцен",
+    "title": "Былое и думы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Джон Голсуорси",
+    "title": "Сага о Форсайтах. т. 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Джон Голсуорси",
+    "title": "Сага о Форсайтах. т. 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Природа и Люди"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Я.И.Перельман",
+    "title": "Занимательная физика. Книга 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Я.И.Перельман",
+    "title": "Занимательная физика. Книга 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "М.П.Шаскольская, И.А.Эльцин",
+    "title": "Сборник избранных задач по физике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Элементарный учебник физики. т. 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Элементарный учебник физики. т. 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Элементарный учебник физики. т. 3."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "С.Дайменд",
+    "title": "Мир вероятностей"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "А.Штейнгауз",
+    "title": "Инженер и природа, или что такое бионика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "И.Б.Литинецкий",
+    "title": "Бионика"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Школьникам о современной физике. Классическая физика. Ядерная физика."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "М.В.Лурье, Б.И.Александров",
+    "title": "Задачи на составление уравнений"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "М.Гарднер",
+    "title": "Математические чудеса и тайны"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Я.И.Перельман",
+    "title": "Занимательная алгебра"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Э.Т.Оганесян",
+    "title": "Руководство по химии. Поступающим в ВУЗы."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "Н.И.Карякин, К.Н.Быстров, П.С.Киреев",
+    "title": "Краткий справочник по физике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Физика космоса"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136872,
+    "dateModified": null,
+    "author": "А.М.Суходский",
+    "title": "Готовимся к единому экзамену по математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "П.Ф.Фильчаков",
+    "title": "Справочник по высшей математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "М.Я.Выгодский",
+    "title": "Справочник по элементарной математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Г.В.Дорофеев, М.К.Потапов, Н.Х.Розов",
+    "title": "Пособие по математике для поступающих в ВУЗы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Эрик Роджерс",
+    "title": "Физика для любознательных. т. 1."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Эрик Роджерс",
+    "title": "Физика для любознательных. т. 2."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Эрик Роджерс",
+    "title": "Физика для любознательных. т. 3."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Справочник по элементарной математике для поступающих в ВУЗы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "В.А.Козлова, Г.Г.Левитас",
+    "title": "Саморепетитор по математике"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Задания для подготовке к выпускному экзамену по алгебре и началам анализа"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Я.Б.Зельдович",
+    "title": "Высшая математика для начинающих"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Физический практикум. Механика и молекулярная физика."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Пособие по физике для поступающих в ВУЗы"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Дж.Литлвуд",
+    "title": "Математическая смесь"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Дэн Браун",
+    "title": "Точка обмана"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Михаил Булгаков",
+    "title": "Мастер и Маргарита"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "М.Ю.Лермонтов",
+    "title": "Герой нашего времени"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Н.Г.Чернышевский",
+    "title": "Сочинения в 10 тт. т.4."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "И.А.Гончаров",
+    "title": "Избранные сочинения"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "Кн. С.Н.Трубецкой",
+    "title": "История древней философии. Часть первая."
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "сб.",
+    "title": "Пособие по рисованию"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "А.Деборин",
+    "title": "Книга для чтения по истории философии. т.1"
+  },
+  {
+    "id": 0,
+    "dateCreated": 1504706136873,
+    "dateModified": null,
+    "author": "А.Деборин",
+    "title": "Книга для чтения по истории философии. т.2."
+  }
+]

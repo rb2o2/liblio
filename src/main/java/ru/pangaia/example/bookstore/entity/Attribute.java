@@ -14,8 +14,4 @@ public class Attribute extends BaseEntity implements Serializable
     public String name;
 
     public String description;
-
-    @ManyToOne
-    @Nullable
-    public Attribute parent;
 }
