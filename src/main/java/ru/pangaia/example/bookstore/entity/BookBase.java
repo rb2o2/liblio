@@ -16,7 +16,7 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
     private String author;
     private String title;
 //    @OneToMany(fetch = FetchType.EAGER)
-//    private Set<Category> categories = new HashSet<>();
+//    private Set<Attribute> categories = new HashSet<>();
 
     public BookBase(String author, @NotNull String title)
     {
@@ -55,24 +55,24 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
 
     }
 
-//    public Set<Category> getCategories()
+//    public Set<Attribute> getCategories()
 //    {
 //        return categories;
 //    }
 //
-//    public void setCategories(Set<Category> categories)
+//    public void setCategories(Set<Attribute> categories)
 //    {
 //        this.categories = categories;
 //
 //    }
 
-//    public void addCategory(Category category)
+//    public void addCategory(Attribute category)
 //    {
 //        this.categories.add(category);
 //
 //    }
 //
-//    public void addAllCategories(Collection<Category> categories)
+//    public void addAllCategories(Collection<Attribute> categories)
 //    {
 //        this.categories.addAll(categories);
 //

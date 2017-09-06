@@ -3,22 +3,22 @@ package ru.pangaia.example.bookstore.repository;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.pangaia.example.bookstore.entity.Category;
+import ru.pangaia.example.bookstore.entity.Attribute;
 
 import javax.persistence.EntityManager;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Repository
-public class CategoryRepository extends SimpleJpaRepository<Category, Long>
+public class AttributeRepository extends SimpleJpaRepository<Attribute, Long>
 {
-    public CategoryRepository(EntityManager em)
+    public AttributeRepository(EntityManager em)
     {
-        super(Category.class, em);
+        super(Attribute.class, em);
     }
 
     @Transactional
-    public List<Category> findByNameIsLike(String substring)
+    public List<Attribute> findByNameIsLike(String substring)
     {
         return findAll()
                 .stream()
@@ -27,7 +27,7 @@ public class CategoryRepository extends SimpleJpaRepository<Category, Long>
     }
 
     @Transactional
-    public List<Category> findByParent(Category parent)
+    public List<Attribute> findByParent(Attribute parent)
     {
         return findAll()
                 .stream()
