@@ -16,7 +16,7 @@ import javax.persistence.Persistence;
 
 
 @Configuration
-@EnableAutoConfiguration(exclude = {HibernateJpaAutoConfiguration.class})
+@EnableAutoConfiguration//(exclude = {HibernateJpaAutoConfiguration.class})
 @EnableJpaRepositories
 @ComponentScan
 public class BiblioApplication extends SpringApplication
@@ -27,14 +27,14 @@ public class BiblioApplication extends SpringApplication
         run(BiblioApplication.class, args);
     }
 
-    @Bean(name = "entityManagerFactory")
-    EntityManagerFactory emf()
-    {
-        return Persistence.createEntityManagerFactory(DB_ADDR);
-    }
-
-    @Bean(name = "transactionManager")
-    public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
-        return new JpaTransactionManager(entityManagerFactory);
-    }
+//    @Bean(name = "entityManagerFactory")
+//    EntityManagerFactory emf()
+//    {
+//        return Persistence.createEntityManagerFactory(DB_ADDR);
+//    }
+//
+//    @Bean(name = "transactionManager")
+//    public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+//        return new JpaTransactionManager(entityManagerFactory);
+//    }
 }
