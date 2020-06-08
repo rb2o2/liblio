@@ -10,6 +10,7 @@ import java.util.Set;
 @Entity
 public class BookCollection extends BaseEntity implements Serializable, Comparable<BookCollection>
 {
+    public BookCollection() {}
     private static final long serialVersionUID = 1L;
     public String name;
     @OneToMany(cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
