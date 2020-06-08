@@ -9,7 +9,7 @@
 <div class="container">
     <p><span th:text="${user.name}"></span> &lt;<span th:text="${user.login}"></span>&gt;</p>
     <hr/>
-    <p>Книги:</p><br/>
+    <p>Карточки:</p><br/>
     <ul>
         <li th:each="b: ${user.booksOwned}"><span th:text="${b.author}">author</span>: <span th:text="${b.title}">title</span></li>
     </ul>

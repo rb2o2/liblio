@@ -8,16 +8,16 @@
 <header th:replace="index :: header"></header>
 <div class="container">
     <div>
-        <p>Добавить книги к пользователю <span th:text="${user.name}"></span> <span th:text="${collection != null}? ('в коллекцию ' + ${collection.name}) : ''"></span></p>
+        <p>Добавить карточки к пользователю <span th:text="${user.name}"></span> <span th:text="${collection != null}? ('в коллекцию ' + ${collection.name}) : ''"></span></p>
 
     </div>
     <div>
         <form th:action="${collection != null}? (@{/user/{userId}/collection/{cid}/add(userId=${user.getId()},cid=${collection.getId()})}): (@{/user/{userId}/books/add(userId=${user.getId()})})" th:method="post">
             <table class="table table-bordered">
-                <tr><th>Автор</th><th>Заглавие</th></tr>
+                <tr><th>Наименование</th><th>Аннотация</th></tr>
                 <tr th:each = "b: ${books}">
-                    <td><span th:text="${b.author}">author</span></td>
-                    <td><span th:text="${b.title}">заглавие</span></td>
+                    <td><span th:text="${b.author}">наименование</span></td>
+                    <td><span th:text="${b.title}">аннотация</span></td>
                     <td><input type="checkbox" th:name="'id_' + ${b.getId()}"/></td>
                 </tr>
                 <tr><td><input type="submit" value="добавить отмеченные"/></td></tr>
