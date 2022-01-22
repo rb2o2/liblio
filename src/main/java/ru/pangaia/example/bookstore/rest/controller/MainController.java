@@ -5,27 +5,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.AttributeRepository;
+import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.UserRepository;
 
 
 @RestController
-public class MainController
-{
+public class MainController {
     @Autowired
     UserRepository userRepository;
+
     @Autowired
     BookRepository bookRepository;
+
     @Autowired
     AttributeRepository categoryRepository;
 
     Logger logger;
+
     private static final String STORE_ADDR_DIR = "/home/oneuro/.bookshelfData/data.odb";
 
     @RequestMapping("/api/cleanData")
-    public String cleanData()
-    {
+    public String cleanData() {
         userRepository.deleteAll();
         bookRepository.deleteAll();
         return "DB Cleared";
@@ -66,8 +67,7 @@ public class MainController
 //    }
 
     @GetMapping("/api/clearCategories")
-    public String clearCategories()
-    {
+    public String clearCategories() {
         categoryRepository.deleteAll();
         return "categories cleared";
     }
