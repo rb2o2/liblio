@@ -11,12 +11,11 @@ import ru.pangaia.example.bookstore.repository.UserRepository;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-public class UserController
-{
+public class UserController {
     @Autowired
     UserRepository userRepository;
 
@@ -27,54 +26,57 @@ public class UserController
     BookCollectionRepository bookCollectionRepository;
 
     @GetMapping(value = "/users/")
-    List<User> getUsers()
-    {
-        List<User> resultSet = userRepository.findAll();
-        return resultSet;
+    List<User> getUsers() {
+        return userRepository.findAll();
     }
 
     @GetMapping(value = "/user/{userId}/")
-    User getUser(@PathVariable Long userId)
-    {
-        User result = userRepository.getOne(userId);
-        return result;
+    User getUser(@PathVariable Long userId) {
+        return userRepository.getOne(userId);
 
     }
 
     @RequestMapping(value = "/user/{userId}/books/", method = RequestMethod.GET)
-    Collection<BookBase> getAllBooksFromUser(@PathVariable Long userId)
-    {
+    Collection<BookBase> getAllBooksFromUser(@PathVariable Long userId) {
         User user = userRepository.getOne(userId);
-        Collection<BookBase> resultSet = user.getBooksOwned();
-        return resultSet;
+        return user.getBooksOwned();
     }
+
     @PostMapping(value = "/users/")
-    User createUser(@RequestBody User user)
-    {
+    User createUser(@RequestBody User user) {
         userRepository.saveAndFlush(user);
         return user;
     }
+
     @PostMapping("/user/{userId}/")
-    User updateUser(@PathVariable Long userId, @RequestBody User userNew)
-    {
+    User updateUser(@PathVariable Long userId, @RequestBody User userNew) {
         User user = userRepository.getOne(userId);
         user.update(userNew);
         userRepository.saveAndFlush(user);
         return user;
     }
+
     @PostMapping("/user/{userId}/collections/{collId}/")
-    User updateCollectionWithBookIds(@PathVariable Long userId, @PathVariable Long collId, @RequestBody List<Long> bookIds)
-    {
+    User updateCollectionWithBookIds(
+            @PathVariable Long userId,
+            @PathVariable Long collId,
+            @RequestBody List<Long> bookIds
+    ) {
         User user = userRepository.getOne(userId);
         List<BookBase> books = bookRepository.findAllById(bookIds);
-        BookCollection coll = user.getBookCollections().stream().filter((c) -> new Long(c.getId()).equals(collId)).findFirst().get();
-        books.forEach(coll::addBook);
-        userRepository.saveAndFlush(user);
+        Optional<BookCollection> coll = user.getBookCollections().stream().filter((c) -> c.getId().equals(collId)).findFirst();
+        if (coll.isPresent()) {
+            books.forEach(coll.get()::addBook);
+            userRepository.saveAndFlush(user);
+        }
         return user;
     }
+
     @PostMapping("/user/{userId}/collections/")
-    BookCollection createCollectionForUser(@PathVariable Long userId, @RequestBody BookCollection coll)
-    {
+    BookCollection createCollectionForUser(
+            @PathVariable Long userId,
+            @RequestBody BookCollection coll
+    ) {
         coll.clear();
         User user = userRepository.getOne(userId);
         user.addCollection(coll);
@@ -83,21 +85,21 @@ public class UserController
     }
 
     @DeleteMapping("/user/{userId}/")
-    User deleteUser(@PathVariable Long userId)
-    {
+    User deleteUser(@PathVariable Long userId) {
         User user = userRepository.getOne(userId);
         userRepository.delete(user);
         return user;
     }
+
     @DeleteMapping("/user/{userId}/collections/{collId}/")
-    User deleteCollectionForUser(@PathVariable Long userId, @PathVariable Long collId)
-    {
+    User deleteCollectionForUser(@PathVariable Long userId, @PathVariable Long collId) {
         User user = userRepository.getOne(userId);
-        BookCollection collection = user.getBookCollections().stream().filter((c) -> collId.equals(c.getId())).findFirst().get();
-        user.getBookCollections().remove(collection);
-        userRepository.saveAndFlush(user);
-        bookCollectionRepository.delete(collection);
+        Optional<BookCollection> collection = user.getBookCollections().stream().filter((c) -> collId.equals(c.getId())).findFirst();
+        if (collection.isPresent()) {
+            user.getBookCollections().remove(collection.get());
+            userRepository.saveAndFlush(user);
+            bookCollectionRepository.delete(collection.get());
+        }
         return user;
     }
-
 }

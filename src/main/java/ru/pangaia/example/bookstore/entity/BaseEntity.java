@@ -12,8 +12,7 @@ import java.sql.Timestamp;
 
 @Entity
 @JsonIgnoreProperties({"userCreated", "userModified"})
-public abstract class BaseEntity
-{
+public abstract class BaseEntity {
     @Id
     @GeneratedValue
     private long id;

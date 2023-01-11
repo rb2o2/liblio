@@ -11,21 +11,20 @@ import ru.pangaia.example.bookstore.repository.UserRepository;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class BookService
 {
     @Autowired
     BookRepository bookRepository;
+
     @Autowired
     UserRepository userRepository;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Transactional
-    public void deleteBookById(Long id)
-    {
+    public void deleteBookById(Long id) {
         BookBase book = bookRepository.getOne(id);
         logger.warn(book.toString());
         List<User> allUsers = userRepository.findAll();
@@ -41,8 +40,7 @@ public class BookService
     }
 
     @Transactional
-    public void deleteBookFromUserByIds(Long userId, Long bookId)
-    {
+    public void deleteBookFromUserByIds(Long userId, Long bookId) {
         User user = userRepository.getOne(userId);
         BookBase book = bookRepository.getOne(bookId);
         bookRepository.delete(book);

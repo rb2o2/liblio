@@ -15,37 +15,36 @@ import ru.pangaia.example.bookstore.entity.User;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.UserRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 @Controller
-public class UsersController
-{
+public class UsersController {
     @Autowired
     UserRepository userRepository;
+
     @Autowired
     BookRepository bookRepository;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/users/")
-    String users(Model model)
-    {
+    String users(Model model) {
         List<User> users = userRepository.findAll();
         model.addAttribute("users", users);
         model.addAttribute("location", "users");
         return "users";
     }
+
     @PostMapping("/users/")
     String addUser(
             @RequestParam("name") String name,
             @RequestParam(value = "email", required = false) String email,
             @RequestParam("login") String login,
             @RequestParam("password") String password,
-            Model model)
-    {
+            Model model
+    ) {
         User user = new User(name, login, email, password);
 //        user.name = name;
 //        if (email != null)
@@ -60,16 +59,16 @@ public class UsersController
         model.addAttribute("location", "users");
         return "users";
     }
+
     @PostMapping("/users/delete")
-    String deleteUser(@RequestParam("id") Long userId)
-    {
+    String deleteUser(@RequestParam("id") Long userId) {
         User user = userRepository.getOne(userId);
         userRepository.delete(user);
-        return "redirect:/users/";
+        return "users";
     }
+
     @GetMapping("/user/{userId}")
-    String user(@PathVariable Long userId, Model model)
-    {
+    String user(@PathVariable Long userId, Model model) {
         User user = userRepository.getOne(userId);
         model.addAttribute("user", user);
         model.addAttribute("location", "users");
@@ -77,8 +76,7 @@ public class UsersController
     }
 
     @PostMapping("/user/{userId}/collections/")
-    String addCollection(@PathVariable Long userId, @RequestParam String collName, Model model)
-    {
+    String addCollection(@PathVariable Long userId, @RequestParam String collName, Model model) {
         User user = userRepository.getOne(userId);
         BookCollection bookCollection = new BookCollection(collName);
         user.addCollection(bookCollection);
@@ -89,8 +87,7 @@ public class UsersController
     }
 
     @GetMapping("/user/{userId}/collection/{collId}/")
-    String getCollection(@PathVariable Long userId, @PathVariable Long collId, Model model)
-    {
+    String getCollection(@PathVariable Long userId, @PathVariable Long collId, Model model) {
         User user = userRepository.getOne(userId);
         BookCollection collection = user.getBookCollectionById(collId);
         model.addAttribute("collection", collection);
@@ -101,8 +98,7 @@ public class UsersController
     }
 
     @GetMapping("/user/{userId}/books/add")
-    String selectBooksToAddToUser(@PathVariable Long userId, Model model)
-    {
+    String selectBooksToAddToUser(@PathVariable Long userId, Model model) {
         User user = userRepository.getOne(userId);
         List<BookBase> books = bookRepository.findAll();
         model.addAttribute("user", user);
@@ -111,9 +107,13 @@ public class UsersController
         model.addAttribute("location", "users");
         return "addBook";
     }
+
     @PostMapping("/user/{userId}/books/add")
-    String addBookToUser(@PathVariable Long userId, @RequestParam Map<String, String> bookIdPayload, Model model)
-    {
+    String addBookToUser(
+            @PathVariable Long userId,
+            @RequestParam Map<String, String> bookIdPayload,
+            Model model
+    ) {
         User user = userRepository.getOne(userId);
         List<BookBase> books = bookRepository.findAllById(parseBookIds(bookIdPayload));
         user.addBooks(books);
@@ -122,9 +122,13 @@ public class UsersController
         return "redirect:/user/{userId}";
 
     }
+
     @GetMapping("/user/{userId}/collection/{cid}/add")
-    String selectBooksToAddToCollection(@PathVariable Long userId, @PathVariable Long cid, Model model)
-    {
+    String selectBooksToAddToCollection(
+            @PathVariable Long userId,
+            @PathVariable Long cid,
+            Model model
+    ) {
         User user = userRepository.getOne(userId);
         BookCollection collection = user.getBookCollectionById(cid);
 //        List<BookBase> books = new ArrayList<>(user.getBooksOwned());
@@ -136,8 +140,12 @@ public class UsersController
     }
 
     @PostMapping("/user/{userId}/collection/{cid}/add")
-    String addBookToCollection(@PathVariable Long userId, @PathVariable Long cid, @RequestParam Map<String, String> bookIdPayload, Model model)
-    {
+    String addBookToCollection(
+            @PathVariable Long userId,
+            @PathVariable Long cid,
+            @RequestParam Map<String, String> bookIdPayload,
+            Model model
+    ) {
         User user = userRepository.getOne(userId);
         List<BookBase> books = bookRepository.findAllById(parseBookIds(bookIdPayload));
         BookCollection coll = user.getBookCollectionById(cid);
@@ -148,8 +156,7 @@ public class UsersController
         return "redirect:/user/{userId}";
     }
 
-    private List<Long> parseBookIds(Map<String,String> payload)
-    {
+    private List<Long> parseBookIds(Map<String,String> payload) {
         logPayload(payload);
         List<Long> ids = payload.entrySet().stream()
                 .filter((es) -> es.getValue().equals("on"))
@@ -159,8 +166,7 @@ public class UsersController
         return ids;
     }
 
-    private void logPayload(Map<String, String> payload)
-    {
+    private void logPayload(Map<String, String> payload) {
         StringBuilder sb = new StringBuilder();
         payload.forEach((key, value) ->
         {
