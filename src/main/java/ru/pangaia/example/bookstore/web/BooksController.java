@@ -1,6 +1,7 @@
 package ru.pangaia.example.bookstore.web;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,15 +12,12 @@ import ru.pangaia.example.bookstore.entity.BookBase;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.service.BookService;
 
-import java.util.List;
-
+@RequiredArgsConstructor
 @Controller
 public class BooksController {
-    @Autowired
-    BookRepository bookRepository;
+    private final BookRepository bookRepository;
 
-    @Autowired
-    BookService bookService;
+    private final BookService bookService;
 
     @GetMapping("/books/")
     String books(Model model) {
@@ -31,7 +29,7 @@ public class BooksController {
 
     @GetMapping("/book/{bookId}")
     String book(@PathVariable Long bookId, Model model) {
-        BookBase book = bookRepository.getOne(bookId);
+        BookBase book = bookRepository.findById(bookId).orElseThrow();
         model.addAttribute("book", book);
         model.addAttribute("location", "books");
         return "bookDetails";

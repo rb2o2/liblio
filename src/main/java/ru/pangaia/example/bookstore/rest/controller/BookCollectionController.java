@@ -1,6 +1,7 @@
 package ru.pangaia.example.bookstore.rest.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,16 +10,13 @@ import ru.pangaia.example.bookstore.entity.BookCollection;
 import ru.pangaia.example.bookstore.repository.BookCollectionRepository;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 
-import java.util.List;
-
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api")
 public class BookCollectionController {
-    @Autowired
-    BookCollectionRepository bookCollectionRepository;
+    private final BookCollectionRepository bookCollectionRepository;
 
-    @Autowired
-    BookRepository bookRepository;
+    private final BookRepository bookRepository;
 
     @GetMapping("/collections/")
     List<BookCollection> getAllCollections() {
@@ -27,6 +25,7 @@ public class BookCollectionController {
 
     @GetMapping("/collection/{collId}/")
     BookCollection getBookCollection(@PathVariable Long collId) {
-        return bookCollectionRepository.getOne(collId);
+        return bookCollectionRepository.findById(collId).orElseThrow();
     }
 }
+

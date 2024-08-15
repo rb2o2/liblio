@@ -1,8 +1,11 @@
 package ru.pangaia.example.bookstore.web;
 
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,19 +18,14 @@ import ru.pangaia.example.bookstore.entity.User;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.UserRepository;
 
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
+@RequiredArgsConstructor
 @Controller
 public class UsersController {
-    @Autowired
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
-    @Autowired
-    BookRepository bookRepository;
+    private final BookRepository bookRepository;
 
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/users/")
     String users(Model model) {
@@ -46,13 +44,6 @@ public class UsersController {
             Model model
     ) {
         User user = new User(name, login, email, password);
-//        user.name = name;
-//        if (email != null)
-//        {
-//            user.email = email;
-//        }
-//        user.login = login;
-//        user.setPassword(password);
         userRepository.save(user);
         List<User> users = userRepository.findAll();
         model.addAttribute("users", users);
@@ -62,14 +53,14 @@ public class UsersController {
 
     @PostMapping("/users/delete")
     String deleteUser(@RequestParam("id") Long userId) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         userRepository.delete(user);
         return "users";
     }
 
     @GetMapping("/user/{userId}")
     String user(@PathVariable Long userId, Model model) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         model.addAttribute("user", user);
         model.addAttribute("location", "users");
         return "userDetails";
@@ -77,7 +68,7 @@ public class UsersController {
 
     @PostMapping("/user/{userId}/collections/")
     String addCollection(@PathVariable Long userId, @RequestParam String collName, Model model) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         BookCollection bookCollection = new BookCollection(collName);
         user.addCollection(bookCollection);
         userRepository.saveAndFlush(user);
@@ -88,7 +79,7 @@ public class UsersController {
 
     @GetMapping("/user/{userId}/collection/{collId}/")
     String getCollection(@PathVariable Long userId, @PathVariable Long collId, Model model) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         BookCollection collection = user.getBookCollectionById(collId);
         model.addAttribute("collection", collection);
         model.addAttribute("user", user);
@@ -99,7 +90,7 @@ public class UsersController {
 
     @GetMapping("/user/{userId}/books/add")
     String selectBooksToAddToUser(@PathVariable Long userId, Model model) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         List<BookBase> books = bookRepository.findAll();
         model.addAttribute("user", user);
         model.addAttribute("collection", null);
@@ -114,7 +105,7 @@ public class UsersController {
             @RequestParam Map<String, String> bookIdPayload,
             Model model
     ) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         List<BookBase> books = bookRepository.findAllById(parseBookIds(bookIdPayload));
         user.addBooks(books);
         userRepository.saveAndFlush(user);
@@ -129,7 +120,7 @@ public class UsersController {
             @PathVariable Long cid,
             Model model
     ) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         BookCollection collection = user.getBookCollectionById(cid);
 //        List<BookBase> books = new ArrayList<>(user.getBooksOwned());
         model.addAttribute("collection", collection);
@@ -146,7 +137,7 @@ public class UsersController {
             @RequestParam Map<String, String> bookIdPayload,
             Model model
     ) {
-        User user = userRepository.getOne(userId);
+        User user = userRepository.findById(userId).orElseThrow();
         List<BookBase> books = bookRepository.findAllById(parseBookIds(bookIdPayload));
         BookCollection coll = user.getBookCollectionById(cid);
         logger.info(coll.name + " <- " + books);

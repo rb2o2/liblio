@@ -1,17 +1,19 @@
 package ru.pangaia.example.bookstore.entity;
 
-import javax.persistence.Entity;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.Entity;
+import java.io.Serial;
 import java.io.Serializable;
+import lombok.NonNull;
 
 @Entity
 public class BookBase extends BaseEntity implements Serializable, Comparable<BookBase> {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     private String author;
     private String title;
 
-    public BookBase(String author, @NotNull String title) {
+    public BookBase(String author, @NonNull String title) {
         this.author = author;
         this.title = title;
     }

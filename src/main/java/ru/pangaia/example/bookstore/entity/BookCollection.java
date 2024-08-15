@@ -1,9 +1,10 @@
 package ru.pangaia.example.bookstore.entity;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.OneToMany;
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashSet;
@@ -20,7 +21,7 @@ public class BookCollection extends BaseEntity implements Serializable, Comparab
         this.books.addAll(books);
     }
 
-    private static final long serialVersionUID = 1L;
+    @Serial private static final long serialVersionUID = 1L;
 
     public String name;
 

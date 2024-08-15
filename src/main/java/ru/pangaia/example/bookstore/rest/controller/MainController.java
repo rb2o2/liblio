@@ -1,7 +1,6 @@
 package ru.pangaia.example.bookstore.rest.controller;
 
-import org.slf4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,19 +8,16 @@ import ru.pangaia.example.bookstore.repository.AttributeRepository;
 import ru.pangaia.example.bookstore.repository.BookRepository;
 import ru.pangaia.example.bookstore.repository.UserRepository;
 
-
+@RequiredArgsConstructor
 @RestController
 public class MainController {
-    @Autowired
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
-    @Autowired
-    BookRepository bookRepository;
+    private final BookRepository bookRepository;
 
-    @Autowired
-    AttributeRepository categoryRepository;
+    private final AttributeRepository categoryRepository;
 
-    Logger logger;
+//    Logger logger;
 
     private static final String STORE_ADDR_DIR = "/home/oneuro/.bookshelfData/data.odb";
 

@@ -1,14 +1,16 @@
 package ru.pangaia.example.bookstore.entity;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.OneToMany;
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.*;
 
 @Entity
 public class User extends BaseEntity implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     private String name;
