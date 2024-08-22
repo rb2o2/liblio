@@ -6,9 +6,19 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.OneToMany;
 import java.io.Serial;
 import java.io.Serializable;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Set;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 public class User extends BaseEntity implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
@@ -46,33 +56,6 @@ public class User extends BaseEntity implements Serializable {
 
     static User getDefaultUser() {
         return DEFAULT;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-
     }
 
     public String getPassword() {

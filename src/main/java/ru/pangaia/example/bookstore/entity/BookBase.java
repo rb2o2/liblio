@@ -3,9 +3,13 @@ package ru.pangaia.example.bookstore.entity;
 import jakarta.persistence.Entity;
 import java.io.Serial;
 import java.io.Serializable;
+import lombok.Getter;
 import lombok.NonNull;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 public class BookBase extends BaseEntity implements Serializable, Comparable<BookBase> {
     @Serial
     private static final long serialVersionUID = 1L;
@@ -19,27 +23,9 @@ public class BookBase extends BaseEntity implements Serializable, Comparable<Boo
     }
     public BookBase() {}
 
-    public void update(BookBase other){
-        author = other.author == null? author : other.author;
-        title = other.title == null? title: other.title;
-
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
+    public void update(BookBase other) {
+        author = other.author == null ? author : other.author;
+        title = other.title == null ? title : other.title;
 
     }
 
